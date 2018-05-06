@@ -1,0 +1,34 @@
+.circle {
+    position: relative;
+    display: border-box;
+    /* display: flexbox;*/
+    flex-flow: row center;
+    width: 20%;
+    height: 0;
+    padding: 10% 0;
+    border-radius: 50%;
+    background: transparent;
+    background-color: green;
+    
+    /* Just making it pretty */
+    @shadow: rgba(0, 0, 0, .1);
+    @shadow-length: 4px;
+    -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
+            box-shadow: 0 @shadow-length 0 0 @shadow;
+    text-shadow: 0 @shadow-length 0 @shadow;
+    /*background:;*/
+    color: white;
+    font-family: Helvetica, Arial Black, sans;
+    font-size: 48px;
+    text-align: center;
+    line-height: 0; 
+}
+
+#circle {
+    width: 100%;
+    display: flexbox;
+
+}
+a {
+    text-decoration: none;
+}
